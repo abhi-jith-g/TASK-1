@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./background.jpeg);
+    background-size: cover;
+}
+.container{
+    padding: 0 20px;
+    max-width:1200px;
+    margin: 0 auto;
+  
+
+}
+header{
+    padding:30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home-icon{
+    background-image: url(./home.png);
+width: 30px;
+height:30px;
+top: 50;
+left: 40;
+background-color: wheat;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.search-box{
+    border: none;
+    outline: none;
+    padding:10px 12px;
+   border-radius: 35px;
+   max-width: 350px;
+   width: 100%;
+   display: flex;
+}
+.search-box input{
+    border: none;
+    outline: none;
+    width: calc(100% - 25px);
+    font-size: 15px;
+}
+.search-icon{
+    width:25px;
+    height: 25px;
+    background-color: azure;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+
+}
+main{
+    background-color: white;
+    padding: 25px 0;
+    border-radius: 20px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(90deg, #531234 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    
+}
+.tagline{
+    background-color: rgb(223, 190, 190);
+    box-shadow: 0px 4px 4px black;
+    padding: 10px;
+    text-align: center;
+    color: #fc2fb9;
+    margin-bottom: 25px;
+}
+.card-section{
+    padding:0 25px ;
+    display: flex;
+    gap:20px;
+}
+.card{
+    background-color: azure;
+    padding-bottom:15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+
+}
+.card h2{
+    padding: 15px;
+}
+.card img{
+    width:100%;
+}
+.card p{
+    padding:15px;
+
+}
+.card button{
+    display: block;
+    margin: auto;
+    border: 8px 15px;
+    border-radius: 30px;
+    background-color:#BB377C;
+
+    color: white;
+}
+footer{
+    background-color:#531234;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+.copy-right-note{
+    color:white;
+}
